@@ -1,0 +1,57 @@
+ARITHMETIC OPERATIONS IN AVAILABLE IN PYTHON
+
+we can do arithmetic operation as we do in mathametics,so the availabel operations are followed:
+  1. +  - additino
+  2. -  - subraction
+  3. *  - multiplication
+  4. /  - division
+  5. %  - modulus
+  6. // - integer division
+  7. ** - exponent
+  
+  
+  ADDITION (+) :
+      as you know addidtion is use to add to are more numbers 
+      3+4 = 7 
+      a = 5 , b = 6 then a+b gives 11
+      
+ SUBRACTION (-):
+      as you know subraction is use to subract two are more numbers
+      3-4 = -1
+      a = 5, b = 6 then a-b gives -1
+      
+  MULTIPLICATION (*):
+    as you know multiplication is use to multiplay two are more numbers
+    3*4 = 12
+    a = 5 ,b = 6 then a*b = 30
+    
+  DIVISION (/) :
+    as you know division is used to divide two numbers
+    12/4 = 3
+    a = 10, b = 100 then b/a = 10
+    
+    
+  MODULUS (%) :
+    here comes the programming part , the modulus operator is used to get the remainder when a number is divide by another number
+    if 5 is divided by 2 we get the remainder a 1
+        5/2 = 2*2 + 1 : the number after the + is known as remainder and the % operator is used to get this number
+        11 % 10 = 1
+        55 % 11 = 0
+        10 % 5 = 0
+        
+  INTEGER DIVISSION (//):
+    the integre division is used to get the integer term of the quotient when a number is divided by other number
+    when 5/2 we get the result as 2.5 , but if we use 5//2 we get the result as 2 , the decimal term is omitted this is known as interger division
+    45 // 7 = 6
+    77 // 10 = 7
+    
+    NOTE : the result is not rounded off , if 77/10 = 7.7 then 77//10 gives 7 as the decimal point is omitted
+    
+  EXPONENT (**):
+    the find a to the power b we can use ** as a**b we gives the result as a to the power b
+    examples :
+        2**3 = 8
+        4**2 = 16
+        8**2 = 64
+        
+ for tutoral the link is given in the readme file and don't forget to subscible our channel
