@@ -15,9 +15,9 @@ boolean = True          #boolean
 string = 'litrally anything... inside this quotation'     #sting
 
 #let's see their datatypes in program , we use type() to know the datatype of a variable
-print(type(num))
-print(type(decimal))
-print(type(boolean))
-print(type(string))
+print(type(num))         - gives <class int> as output
+print(type(decimal))     - gives <class float> as output
+print(type(boolean))     - gives <class bool> as output
+print(type(string))      - gives <class str> as output
 
 
