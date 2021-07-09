@@ -1,0 +1,38 @@
+Comming to naming of a variable there are certain rules to name a varibel , let's see what are they
+
+  1.we cannot use key words as a varibale name
+      So, what is a key word : a key word is nothing but a word which has specific definition for it or which are predefined by the interpretter
+      some of the key words are followed:
+        if, else, elif, sum, list, tuple, int, float , bool, class, def, break ,continue, pass , try, except ,etc....
+        
+  2.we can use alphabets to name our variable 
+    we have from a-z and A-Z
+ 
+  3. we can have numbers in our name of the variable
+    we can use numbers from 0 - 9
+    NOTE : we cannot use numbers in the beginning of a variable like (0num, 234adre, 007number) these are not valide variables
+  
+  4.we can use (_) underscore in our name of the varibale 
+    NOTE: we can use _ in the stariting of a variabel in middle of a variable and at the ending of a variable
+    
+    
+ so any variable name satifies all the 4 conditions are valide variable
+ 
+ examples:
+    VALIDE:
+       1.num
+       2.num_2
+       3.num3
+       4._num
+       5.n_u_m
+       6.Num4
+       
+    INVALIDE:
+      1.0num      - number at the beginning of the name
+      2.sum       - cannot use keywords in name
+      3.-num      - special character (-) is not allowed
+      4.$dun      - sepcial character ($) is not allowed
+      5.class     - keywords are not allowed
+      
+NOTE : Num and num are treated diffetent because python is a case sensitive lang, which means N and n are treated differently
+
