@@ -1,0 +1,62 @@
+Input and Output Opetations  
+
+	Inorder to interact with the users the program needs input and output statements
+	for example take a calculator :
+		we give numbers and operations as input and it gives the result as an output,
+		In python we have those statements know as:
+			1.input()
+			2.print()
+
+print() statements:
+	As the name suggests the print statements prints the output to the screen , and so it is 	known as a output statement.
+	SYNTAX:
+		print(statement)
+	a syntax can be considered as a formula to write a speific statement
+	here the syntax states that the keyword print() 
+	statement refers to the statemenst or the expression to be printed
+	
+	EXAMPLE:
+		print(030)  		- output => 030
+		print(03.32) 		- output => 03.32
+		print('code hub')	- output => code hub
+		priny('code hub', 01)   - output => code hub 01
+
+	NOTE: comma(,) is use to seperate two different datatypes that is to be printed in a single 
+	      print() statement
+
+input() statements:
+	so inorder to get the input from the user you need a input statement  
+	SYNTAX:
+		variable = input(prompt)
+	so the as the syntax says, anything that we type is observed by the input statement and then 
+	it is stored in the varibale
+	prompt = prompt is nothing but the statment that is printed for the understanding of the user 
+	for example :
+		consider the following code,
+		num = input()
+
+		in the output you just see the curser blinking but you don't know what you should 			enter,  you may enter your name , age , something link that,  to prevent those 	
+		confusion we can write the following code
+		print('enter a number : ')
+		num = input()
+
+		so now in the output screen you can see a statement that says to enter a number , so 
+		now you know what you should enter BUT,
+		insted of writtin print() and then input we can write like the following
+		
+		num = input('enter a number')
+
+		so now the output screen shows the same output screen as the before statement but we 
+		did the same thing in a single like 
+		that single line is known as prompt , so anything within that '' inside the input() 
+		will be printed
+
+
+EXAMPLE FOR BOTH INPUT AND PRINT STATEMENT:
+	name = input('enter your name: ')
+	print('hello and welcome to code hub',name)
+
+	so the above code give the output link as follows:
+	
+	enter your name: sriram
+	hello and welcome to code hub sriram
