@@ -8,4 +8,5 @@ all topics in python we be discussed in here , youtube video like is also availa
 all you need to learn python is
   1. internet connection (which you'd propably have)
   2. either a laptop or system (recomended)
-  3. if not then you can use smartphones (for learning purpuse)
+  3. if not then you can use smartphones (for learning purpose)
+  4. and a lot of practice
