@@ -1,6 +1,6 @@
 Input and Output Opetations  
 
-	Inorder to interact with the users the program needs input and output statements
+	Inorder to interact with the users the program needs inputs and outputs statements
 	for example take a calculator :
 		we give numbers and operations as input and it gives the result as an output,
 		In python we have those statements know as:
@@ -8,7 +8,7 @@ Input and Output Opetations
 			2.print()
 
 print() statements:
-	As the name suggests the print statements prints the output to the screen , and so it is 	known as a output statement.
+	As the name suggests the print statements prints the output to the screen , and so it is known as a output statement.
 	SYNTAX:
 		print(statement)
 	a syntax can be considered as a formula to write a speific statement
@@ -25,7 +25,7 @@ print() statements:
 	      print() statement
 
 input() statements:
-	so inorder to get the input from the user you need a input statement  
+	so, inorder to get the input from the user you need a input statement  
 	SYNTAX:
 		variable = input(prompt)
 	so the as the syntax says, anything that we type is observed by the input statement and then 
@@ -35,21 +35,22 @@ input() statements:
 		consider the following code,
 		num = input()
 
-		in the output you just see the curser blinking but you don't know what you should 			enter,  you may enter your name , age , something link that,  to prevent those 	
+		in the output you just see the curser blinking but you don't know what you should enter,
+		you may enter your name , age , something link that,  to prevent those 	
 		confusion we can write the following code
 		print('enter a number : ')
 		num = input()
 
 		so now in the output screen you can see a statement that says to enter a number , so 
 		now you know what you should enter BUT,
-		insted of writtin print() and then input we can write like the following
+		insted of writtin print() and then input() we can write like the following
 		
 		num = input('enter a number')
 
 		so now the output screen shows the same output screen as the before statement but we 
 		did the same thing in a single like 
 		that single line is known as prompt , so anything within that '' inside the input() 
-		will be printed
+		will be printed for the user understanding..
 
 
 EXAMPLE FOR BOTH INPUT AND PRINT STATEMENT:
