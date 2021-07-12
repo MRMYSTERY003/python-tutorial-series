@@ -1,0 +1,97 @@
+So from here the intresting part starts,
+  
+  Here we are going to see what are conditional statements and how to use them in our program
+  
+  what is a conditions?
+    in our programing norms we call condition statements as yes or no question, which means
+    the question we ask must result only , either True or False
+    
+    in our previous blog we have seen that the relational statements result in either True or false , Hence we use
+    relational in our conditional statements
+    
+    So ok, Now let's what are conditional statements?
+      In programming, a conditional statements is nothing but a statement which CHANGES THE FLOW OF THE CONTROL 
+      according to the contdition given
+      
+      Got confused let's see an example ,
+      consider you need to write a program for checking elegiblity for voting 
+      So, the condition here is age >=18
+      if the age is greate than 18 then print you are elegible for voting 
+      if not then print you are not elegible for voting
+      
+      SYNTAX:
+        if (condition):
+          statements
+        else:
+          statements
+      
+      so let's write the code,
+        age = int(input('enter your age: '))
+        if age >= 18:
+          print('you are elegiable for voting')
+        else:
+          print('you are not elegible for voting')
+          
+      so let's we what we have done
+      in the first line we are getting an input from user and converting to integer as input() returns string datetype and we are storing the integer value in the variable age
+      in the second line we are checking for the condition ,
+      if (age >= 18) then the if block gets executed , ok what is a if block
+      
+      a block is noting but a group of statements which has same number of spaces or tabs, Normally we use {} to represent a block but in python
+      we use spaces or tabs to represent a block , and the spacing is known as indendation
+      
+      in the program we have indented the print statement and it is below the if statements ,hence it is called if-block
+      and the print statements below the else is called else block
+      
+      Now comming to the condtion , if the condition returns True, then the if block will get executed(i.e the program will print you are elegible for voting)
+      if the condition returns False , then the else block get's executed(i.e the program will print you are not elegible for voting)
+      
+      hence, here we have got two print statements, which get's executed according to the condition, and this is the power of print statements
+      
+      But what is we need to chech more than one condition, let's consider an example you are going to a roller coster ride ,
+      but they are saying that, you need to be above 150 cm or weight less than 70kgs , so here we have two conditions, right?
+      
+      so here comes the if-elif-else structure
+      
+      SYNTAX:
+        if (condition 1):
+          statements
+        elif (condition 2):
+          statements  
+               .
+               .
+               .
+        else:
+          statements
+          
+          
+        as you can see we have condition 1, condition 2, .... and at last we have else which gets executed if none of the above conditions get's stisfies
+      
+      let's write a program 
+      
+      height = int(input('enter your height in cm: '))
+      witght = int(input('enter your weight in kgs: '))
+      if(height >= 150):
+        print('you may ride!')
+      elif (weight <= 70):
+        print('you may ride!')
+      else:
+        print('sorry!, you are not elegiable')
+        
+      here we have two condition one is if the height is greater than 150 then it prints you may ride! as output
+      the sencond condition get's executed only if the above condition is not satisfied and the corrent conndition is satisfied
+      (i.e if i give height as 140 and weight as 60 the if-block is skipped and the elif-block gets get executed )
+      
+      if I give the height as 140 and weight as 80 then the both condition as skipped and the last statements , else get's 
+      executed and prints sorry!, you are not elegiable
+      
+      as a conclusion , the conditional statemenst are used the execute as certain block accoring to the condition given 
+      
+      
+      
+      
+      
+      
+      
+     
+    
