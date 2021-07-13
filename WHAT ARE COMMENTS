@@ -1,0 +1,35 @@
+COMMENTS
+
+Let's consider a Englis movie ,We can see some sentence running in the bottom of the screen , Which is know as SUBTITLE
+if the subtitle has any mistake , or if is in nosink, it dose'nt affect the movie right? ,subtitle is used for the understanding
+of the viewers , if we remove them the movie can still run 
+
+Similarly, Comments in programming is nothing but a subtitle used for the understanding of the programmers
+these comments are not complied by the interpretter, when it see a comment it just skips it
+
+You may think , I know what i am doing , then you do i need comment ,
+if you are creating a program, you may remember everything, but after a week or a month , you will not remember those 
+logics everything will be just vanished, so we use comments in such situation
+
+moreover when you are developing something , you may give it to someother developer , for the understanding of them 
+we use comments
+
+
+
+Ok , let's see how can you comment a line, It so simple , just use hash symbole(#) at the starting of the line
+That's it you have commented a line
+
+we also have multiline comment , consider you need to comment more than one line then you need a multi line,
+how can we do multiline comment it is so simple
+
+just enclose the lines with triple quotes('''  '''), that's it 
+
+
+Example:
+
+#this is a single line commenst , this lines are skipped by the interepretter
+
+''' this is a multiline comment
+we can comment more than 
+one line using triple quotes
+'''
