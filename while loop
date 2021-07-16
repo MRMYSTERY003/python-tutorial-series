@@ -1,0 +1,30 @@
+In Python, While Loops is used to execute a block of statements repeatedly until a given condition is satisfied.
+And when the condition becomes false, the line immediately after the loop in the program is executed. 
+While loop falls under the category of indefinite iteration. 
+Indefinite iteration means that the number of times the loop is executed isn’t specified explicitly in advance
+
+Syntax:
+
+while expression:
+    statement(s)
+    
+Statements represent all the statements indented by the same number of character spaces after
+a programming construct are considered to be part of a single block of code. 
+Python uses indentation as its method of grouping statements. When a while loop is executed, 
+expr is first evaluated in a Boolean context and if it is true, the loop body is executed. Then the expr is checked again,
+if it is still true then the body is executed again and this continues until the expression becomes false.
+
+Example:
+
+
+# Python program to illustrate 
+# while loop 
+count = 0
+while (count < 3):     
+    count = count + 1
+    print("CODE HUB") 
+  
+OUTPUT :
+CODE HUB
+CODE HUB 
+CODE HUB
