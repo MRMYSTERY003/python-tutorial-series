@@ -58,4 +58,119 @@
     In the case of multiple occurrences of the same element, only the first occurrence is removed.
     
     EXAMPLE:
+    list1 = [1,2,3,4,5]
+    list1.remove(5)
+    print(list1)
     
+    OUTPUT:
+    [1,2,3,4]
+    
+5. pop()
+    The method pop() can remove an element from any position in the list.
+    The parameter supplied to this method is the index of the element to be removed.
+    
+    EXAMPLE:
+    list1 = [1,2,3,4,5]
+    list1.pop()    # if the index in not specified then the last element will be deleted
+    list1.pop(0)   # this deletes the element at 0th index
+    
+    OUTPUT:
+    [2,3,4]
+    
+6. len()
+    The len() method returns the length of the list, i.e. the number of elements in the list.
+    
+    EXAMPLE:
+    list1 = [1,2,3,4,5]
+    print(len(list1))
+    
+    OUTUPT:
+    5
+    
+7. min() & max()
+    The min() method returns the minimum value in the list.
+    The max() method returns the maximum value in the list.
+    Both the methods accept only homogeneous lists, i.e. list having elements of similar type.
+    
+    EXAMPLE:
+    list = [1,2,3,4,5]
+    print(min(list))
+    print(max(list))
+    
+    OUTPUT:
+    1         #minimum of the list
+    5         #maximum of the list
+    
+8. sort()
+    The sort method sorts the list in ascending order. 
+    This operation can only be performed on homogeneous lists, i.e. lists having elements of similar type
+    SORT METHOD MAKE CHANGES TO THE ORIGINAL LIST
+    
+    EXAMPLE:
+    list1 = [5,3,6,23,2]
+    list1.sort()
+    print(list1)
+    
+    OUTPUT:
+    [2,3,5,6,23]
+    
+9.sorted()
+    The sort method sorts the list in ascending order. 
+    This operation can only be performed on homogeneous lists, i.e. lists having elements of similar type
+    UNLIKE SORT , SORTED METHOD RETURNS A NEW LIST AND THE ORIGINAL LIST IS NOT CHANGED
+    
+    EXAMPLE:
+    list1 = [5,3,6,23,2]
+    l1 = sorted(list1)
+    print(list1)
+    print(l1)
+    
+    OUTPUT:
+    [5,3,6,23,2]      #original list
+    [2,3,5,6,23]      #new sorted list
+    
+10. clear()
+    clear method is used to delete all the elements in the list , but the list in not deleted 
+    
+    EXAPMLE:
+    list1 = [2,34,5,6,3]
+    list1.clear()
+    print(list1)
+    
+    OUTPUT:
+    []
+    
+11. list()
+    this method is used to conver the give arguments into a list , we can convert a tuple in to a list, a set into a list 
+    
+    EXAMPLE:
+    tu = (1,2,3,4)
+    st = {1,2,3,4}
+    l1 = list(tu)
+    l2 = list(st)
+    print(l1)
+    print(l2)
+    
+    OUTPUT:
+    [1,2,3,4]
+    [1,2,3,4]
+    
+12. tuple()
+    this method is used to conver the give arguments into a tuple , we can convert a list in to a tuple, a set into a tuple
+    
+    EXAPMLE:
+    li = [1,2,3,4]
+    st = {1,2,3,4}
+    t1 = tuple(l1)
+    t2 = tuple(l2)
+    print(t1)
+    print(t2)
+    
+    OUTPUT:
+    (1,2,3,4)
+    (1,2,3,4)
+    
+    
+    
+    
+
