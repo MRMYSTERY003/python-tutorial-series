@@ -1,0 +1,61 @@
+ A few of the basic list operations used in Python programming are 
+ 
+ 1.extend(), 
+ 2.insert(),
+ 3.append(), 
+ 4.remove(), 
+ 5.pop(),
+ 6.min() 
+ 7.max(), 
+ 8.sort(),
+ 9.sorted()
+ 10.index(), 
+ 11.clear(), 
+ 12.list()
+ 13.tuple(), etc.
+ 
+  
+ 1. append()
+    The append() method is used to add elements at the end of the list. This method can only add a single element at a time.
+    
+    EXAMPLE: 
+    list1 = [1,2,3,4,5]
+    list1.append(6)   #adding 6 at the end
+    list1.append(7)   #adding 7 at the end
+    print(list1)
+    
+    OUTPUT:
+    [1,2,3,4,5,6,7]
+    
+  2. extend()
+      The extend() method is used to add more than one element at the end of the list.
+      Although it can add more than one element, unlike append(), it adds them at the end of the list like append()
+      
+      EXAMPLE:
+      list1 = [1,2,3,4,5]
+      list1.extend([8,9,10])    #adding 8,9,10 at the end, append use to add single element , extend is use to add multilple elements at the end
+      print(list1)
+      
+      OUTPUT:
+      [1,2,3,4,5,8,9,10]
+      
+ 3. insert()
+    The insert() method can add an element at a given position in the list. 
+    Thus, unlike append(), it can add elements at any position, but like append(), 
+    it can add only one element at a time. This method takes two arguments.
+    The first argument specifies the position, and the second argument specifies the element to be inserted.
+    
+    EXAMPLE: 
+    list1 = [1,2,3,4,5]
+    list1.insert(0, -100)   adding -100 at the 0th index
+    print(lsit1)
+    
+    OUTPUT:
+    [-100, 1,2,3,4,5]
+    
+ 4. remove()
+    The remove() method is used to remove an element from the list.
+    In the case of multiple occurrences of the same element, only the first occurrence is removed.
+    
+    EXAMPLE:
+    
